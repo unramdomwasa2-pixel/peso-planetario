@@ -17,13 +17,13 @@ planetas = ["Luna", "Mercurio", "Venus", "Marte", "Jupiter", "Saturno", "Urano",
 
 st.title("Calculadora de peso en otros planetas")
 
-st.write("Ingrese un numero entero --OBLIGATORIO--")
+st.write("Ingrese su peso en  KG --OBLIGATORIO--")
 
 peso = st.text_input("Escriba su peso:")
 planeta = st.selectbox("Elija un planeta: ", ["Luna", "Mercurio", "Venus", "Marte", "Jupiter", "Saturno", "Urano", "Neptuno", "Ceres", "Pluton", "Io", "Sol"])
 
 if peso and planeta:
-    peso = int(peso)
+    peso = float(peso)
 
     if planeta == "Luna":
         st.write("Tu peso en Luna es: ", peso * Luna, "Kg")
@@ -50,4 +50,5 @@ if peso and planeta:
     elif planeta == "Sol":
         st.write("Tu peso en el Sol es: ", peso * Sol, "Kg")
     else:
-        st.error("Planeta no válido. Revisa la inicial.")
+
+        st.error("Datos no válido.")
