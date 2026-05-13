@@ -1,5 +1,20 @@
 import streamlit as st
 
+st.set_page_config(page_title="El criollo", page_icon="")
+
+st.markdown("""
+    <style>
+    #MainMenu, footer, header {visibility: hidden;}
+    div.stLinkButton > a {
+        background-color: #25D366 !important;
+        border: none !important;
+    }
+    div.stLinkButton > a p {
+        color: white !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.markdown("""
     <style>
     div.stLinkButton > a {
@@ -242,5 +257,3 @@ with pos3:
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
         st.link_button("Pedir", "https://wa.me/04242441094")
-        st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
-        st.subheader("9,99$")
