@@ -2,6 +2,18 @@ import streamlit as st
 
 st.markdown("""
     <style>
+    div.stLinkButton > a {
+        background-color: #25D366 !important;
+        border: none !important;
+    }
+    div.stLinkButton > a p {
+        color: white !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+st.markdown("""
+    <style>
     div[data-baseweb="select"] > div, ul[role="listbox"], li[role="option"] {
         background-color: #1a3a5a !important;
         color: white !important;
@@ -70,6 +82,7 @@ with col1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
 
         st.divider()
 
@@ -77,6 +90,7 @@ with col1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
 
         st.divider()
 
@@ -84,6 +98,8 @@ with col1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
 with col3:
     if opc == "Platos":
@@ -91,6 +107,8 @@ with col3:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -98,6 +116,8 @@ with col3:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -105,6 +125,8 @@ with col3:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
 
 beb1, dc1, dc2, beb3 = st.columns(4)
@@ -116,6 +138,8 @@ with beb1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -123,6 +147,8 @@ with beb1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -130,6 +156,8 @@ with beb1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
 with beb3:
     if opc == "bebidas":
@@ -138,6 +166,8 @@ with beb3:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -145,6 +175,8 @@ with beb3:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -152,6 +184,8 @@ with beb3:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
 
 pos1, d1, d2, pos3 = st.columns(4)
@@ -162,6 +196,8 @@ with pos1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -169,6 +205,8 @@ with pos1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -176,6 +214,8 @@ with pos1:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
 with pos3:
     if opc == "postres":
@@ -183,6 +223,8 @@ with pos3:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
@@ -190,10 +232,15 @@ with pos3:
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
+
 
         st.divider()
 
         st.subheader("Pabellon criollo")
         st.write("Delicioso plato de arroz, caraotas, platano, huevo y carne mechada")
+        st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
+        st.subheader("9,99$")
+        st.link_button("Pedir", "https://wa.me/04242441094")
         st.image("https://mojo.generalmills.com/api/public/content/rvFCh00FckGn5UlOJh153Q_gmi_hi_res_jpeg.jpeg?v=452d812a&t=16e3ce250f244648bef28c5949fb99ff", width=100)
         st.subheader("9,99$")
